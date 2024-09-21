@@ -1,0 +1,20 @@
+{
+  "name": "untitled",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "laptop": "cypress run --config viewportWidth=1920,viewportHeight=1080",
+    "mobile": "cypress run --config viewportWidth=720,viewportHeight=1080",
+    "test:chrome:headless": "cypress run --browser chrome --headless",
+    "test:chrome:headed": "cypress run --browser chrome --headed",
+    "test:firefox:headless": "cypress run --browser firefox --headless",
+    "test:firefox:headed": "cypress run --browser firefox --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^13.14.2"
+  }
+}
